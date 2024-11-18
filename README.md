@@ -1,8 +1,40 @@
-# Customer-_relationship_management
+# Contact_relationship_management
 Assignment for the Erino
 
 # Contact Management System
 This is a small contact management feature for a CRM system. It allows users to add, view, edit, and delete contact details. The goal is to make it easy for users to manage their contacts in one place. The project uses ReactJS for the frontend and Node.js for the backend. For the database, it uses MongoDB.
+
+# Installation Instructions
+Follow these steps to run the project locally:
+
+# 1. Clone the Repository
+git clone <repository-link>
+cd contact-management
+# 2. Setup Backend
+Navigate to the backend folder:
+cd backend
+
+# Install dependencies:
+npm install
+
+# Add a .env file in the backend folder:
+MONGO_URI=
+PORT=5000
+# Start the backend server:
+npm start
+
+# 3. Setup Frontend
+Navigate to the frontend folder:
+cd ../frontend
+
+Install dependencies:
+npm install
+
+Start the React app:
+npm start
+
+# 4. Access the Application
+Open your browser and go to http://localhost:3000.
 
 
 # Technologies Used
